@@ -1,2 +1,2 @@
-### Juan Sebastian Nuñez Cortes
-#### 202021672
+### Nombre: Juan Sebastian Nuñez Cortes
+### Codigo: 202021672
