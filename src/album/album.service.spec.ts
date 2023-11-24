@@ -92,4 +92,4 @@ describe('AlbumService', () => {
     await expect(() => service.create(album)).rejects.toHaveProperty("message", "The album's name cannot be empty")
   });
     
-});
+}); 
