@@ -3,7 +3,6 @@ import { IsNotEmpty, IsString, IsUrl } from 'class-validator';
 
 export class AlbumDto {
   @IsString()
-  @IsNotEmpty()
   readonly nombre: string;
 
   @IsUrl()
@@ -14,6 +13,5 @@ export class AlbumDto {
   readonly fecha_lanzamiento: Date;
 
   @IsString()
-  @IsNotEmpty()
   readonly descripcion: string;
 }
